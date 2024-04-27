@@ -7,9 +7,19 @@ $(window).load(function () {
 	$('#loader').fadeOut();
 });
 
+/*navbar*/
+let navbar = document.querySelector("nav");
 
+window.onscroll = function () {
+  // pageYOffset or scrollY
+  if (window.pageYOffset > 0) {
+    navbar.classList.add("scrolled");
+  } else {
+    navbar.classList.remove("scrolled");
+  }
+};
 
-
+/*end navbar */
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function () {
