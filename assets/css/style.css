@@ -22,7 +22,11 @@ a {
 .row01{
     display: flex;
     flex-direction: row-reverse !important;
-    justify-content: space-between;
+   
+  
+}
+.just-for-padding{
+    padding-right: 120px;
 }
 a:hover,
 a:focus,
@@ -34,7 +38,7 @@ a.active {
 
 
 p {
-    font-size: 13px;
+    font-size: 18px;
     line-height: 21px;
 }
 
@@ -111,7 +115,7 @@ p {
     transition: background-color 200ms linear;
   }
 .navbar {
-background-color:#f8f8f8;
+background-color:#fff;
   color: #000;
   padding: 0px;
   position: fixed;
@@ -158,6 +162,7 @@ nav ul li a {
 }
 .header{
     width: 100% !important;
+    
    }
     .col-sm-12{
         width: 100% !important;
@@ -167,6 +172,7 @@ nav ul li a {
     img{
         width: 400px !important;
     }
+
 }
 @media(max-width:900px){
     img{
@@ -177,7 +183,7 @@ nav ul li a {
     .row{
        display: flex;
        flex-direction: column;
-       
+    
        
     }
     .row01{
@@ -416,7 +422,17 @@ nav ul li a {
 #service{
     padding-top: 0px;
     margin-top: -30px;
+    background-color: #f8f8f8;
 }
 .row{
     padding-top: 100px;
 }
+
+/*footer*/
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #103136;
+    color: #fff;
+  }
+  /*end footer*/
