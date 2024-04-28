@@ -62,7 +62,11 @@ p {
     width: device-width;
 }
 
+/**/
+/**/
+/**/
 
+/**/
 /*container-for-main-body*/
 .container-for-all-header{
     margin-bottom: 70px;
@@ -146,6 +150,8 @@ nav ul {
 nav ul li a {
   color: #000;
 }
+/*end nav*/
+/*end nav*/
 /*end nav*/
 /*wrapper-for-my-button-and-hello*/
 
