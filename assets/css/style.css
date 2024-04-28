@@ -16,9 +16,7 @@ body {
     display: none;
     font-size: 2rem;
   }
-a {
-    color: #28ABE3;
-}
+
 .row01{
     display: flex;
     flex-direction: row-reverse !important;
@@ -28,13 +26,7 @@ a {
 .just-for-padding{
     padding-right: 120px;
 }
-a:hover,
-a:focus,
-a:active,
-a.active {
-    color:;
-    text-decoration: none;
-}
+
 
 
 p {
@@ -65,7 +57,19 @@ p {
 /**/
 /**/
 /**/
+.just-for-button-onclick-class li a{
+  text-decoration: none;
 
+}
+.just-for-button-onclick-class li a{
+  
+  margin-right: 10px;
+}
+.just-for-button-onclick-class li a:hover{
+  color: #28ABE3 !important;
+  border-bottom: 2px solid #28ABE3;
+  transition: background-color 200ms linear;
+}
 /**/
 /*container-for-main-body*/
 .container-for-all-header{
