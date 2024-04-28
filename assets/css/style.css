@@ -256,6 +256,15 @@ nav ul li a {
     .my-hello {
       font-size: 3rem;
     }
+    .skills-wrapper .container .fab {
+      font-size: 4rem !important;
+      transition: 0.2s;
+      
+    }
+     .skills-no-icon{
+      display: grid !important;
+      grid-template-rows: 1fr 1fr 1fr 1fr !important;
+    }
     
   }
   @media (max-width: 600px) {
@@ -433,6 +442,7 @@ nav ul li a {
 
 #service{
     padding-top: 0px;
+    padding-bottom: 40px;
     margin-top: -30px;
     background-color: #f8f8f8;
 }
@@ -440,6 +450,81 @@ nav ul li a {
     padding-top: 100px;
 }
 
+.skills-no-icon-no-icon-02-butFor-project{
+  
+}
+.skills-no-icon-no-icon-02-butFor-project-img{
+max-width: 25px;
+}
+.fa-wordpress{
+  color: #103136;
+}
+.fa-html5 {
+  color: rgb(251, 79, 20);
+}
+.fa-css3-alt {
+  color: rgb(30, 144, 255);
+}
+.fa-js {
+  color: rgb(223, 223, 29);
+}
+.fa-react {
+  color: #3498db;
+}
+.fa-sass {
+  color: rgb(235, 118, 182);
+}
+.fa-git-square {
+  color: rgb(228, 105, 49);
+}
+
+/*skills*/
+.skills-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #103136;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.skills-wrapper .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px;
+  /* margin: 40px 0px 50px 70px;*/
+  justify-items: center;
+  row-gap: 5rem;
+}
+.skills-wrapper .container .fab {
+  font-size: 5rem;
+  transition: 0.2s;
+}
+
+.skills-wrapper .container .fab:hover {
+  transform: scale(1.1);
+}
+.skills-no-icon img {
+  width: 65px;
+  transition: 0.2s;
+  height: auto;
+}
+.skills-no-icon img:hover {
+  transform: scale(1.1);
+}
+.skills-header {
+  padding-top: 15px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.skills-header h2 {
+  font-size: 2.2rem;
+  display: inline-block;
+  color: #dadada;
+  padding: 0 2px;
+  /* margin: 2rem 0 0 5rem;*/
+}
 /*footer*/
 footer {
     text-align: center;
